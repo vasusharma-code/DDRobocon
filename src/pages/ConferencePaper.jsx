@@ -160,12 +160,11 @@ const ConferencePapers = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 mt-10">
       <h1 className="text-2xl font-bold mb-4">Conference Papers</h1>
       <ol className="list-decimal list-inside">
         {papers.map((paper) => (
           <li key={paper.number} className="mb-4">
-            <p><strong>No.:</strong> {paper.number}</p>
             <p><strong>Authors:</strong> {paper.authors}</p>
             <p><strong>Title:</strong> {paper.title}</p>
             <p><strong>Event:</strong> {paper.event}</p>

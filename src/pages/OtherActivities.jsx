@@ -2,7 +2,7 @@ import React from 'react';
 
 const OtherActivities = () => {
   return (
-    <div className="min-h-screen flex flex-col container mx-auto px-4 py-8">
+    <div className="min-h-screen flex flex-col container mx-auto px-4 py-8 mt-10">
       <h1 className="text-2xl font-bold mb-4">Other Activities</h1>
 
       <div className="mb-8 flex-grow">

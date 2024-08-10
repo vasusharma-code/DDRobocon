@@ -94,28 +94,28 @@ const RDConsultants = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 mt-10">
       {/* R&D Consulting (PI) Section */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold mb-4">R&D Consulting (PI)</h1>
-        <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-gray-50">
+        <h1 className="text-2xl font-bold mb-4 text-gray-800">R&D Consulting (PI)</h1>
+        <table className="min-w-full bg-white shadow-md border border-gray-300">
+          <thead className="bg-gray-100">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Title</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Sponsor Agency</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Start Date</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">End Date</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">Title</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">Sponsor Agency</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">Amount</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">Start Date</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">End Date</th>
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
+          <tbody className="bg-white divide-y divide-gray-300">
             {rdConsultingPI.map((item, index) => (
               <tr key={index}>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.title}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.sponsorAgency}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.amount.toLocaleString()}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.startDate}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.endDate}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.title}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.sponsorAgency}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.amount.toLocaleString()}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.startDate}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.endDate}</td>
               </tr>
             ))}
           </tbody>
@@ -124,25 +124,25 @@ const RDConsultants = () => {
 
       {/* R&D Consulting (CP) Section */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold mb-4">R&D Consulting (CP)</h1>
-        <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-gray-50">
+        <h1 className="text-2xl font-bold mb-4 text-gray-800">R&D Consulting (CP)</h1>
+        <table className="min-w-full bg-white shadow-md border border-gray-300">
+          <thead className="bg-gray-100">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Title</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Sponsor Agency</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Start Date</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">End Date</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">Title</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">Sponsor Agency</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">Amount</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">Start Date</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase border border-gray-300">End Date</th>
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
+          <tbody className="bg-white divide-y divide-gray-300">
             {rdConsultingCP.map((item, index) => (
               <tr key={index}>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.title}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.sponsorAgency}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.amount.toLocaleString()}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.startDate}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.endDate}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.title}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.sponsorAgency}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.amount.toLocaleString()}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.startDate}</td>
+                <td className="px-6 py-4 text-sm text-gray-700 border border-gray-300">{item.endDate}</td>
               </tr>
             ))}
           </tbody>
@@ -151,8 +151,5 @@ const RDConsultants = () => {
     </div>
   );
 };
-
-
-
 
 export default RDConsultants;

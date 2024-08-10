@@ -2,7 +2,7 @@ import React from 'react';
 
 const IndustrialExperience = () => {
   return (
-    <div className="container mx-auto px-4 py-8 min-h-screen flex flex-col justify-between">
+    <div className="container mx-auto px-4 py-8 min-h-screen flex flex-col justify-between mt-10">
       <div>
         <h1 className="text-2xl font-bold mb-4">Industrial Experience</h1>
 

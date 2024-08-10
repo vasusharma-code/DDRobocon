@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 function Homepage() {
   return (
-    <div>
+    <div className='mt-16'>
         <Header/>
         {/* <Navbar/> */}
         <Hero/>

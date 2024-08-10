@@ -77,7 +77,7 @@ const Navbar = () => {
               <li><Link to="/fiit-projects" className="block px-4 py-2 hover:bg-gray-100">FIIT Projects</Link></li>
               <li><Link to="/patents" className="block px-4 py-2 hover:bg-gray-100">Patents</Link></li>
               <li><Link to="/books-supervised" className="block px-4 py-2 hover:bg-gray-100">Books Supervised</Link></li>
-              <li><Link to="/thesis" className="block px-4 py-2 hover:bg-gray-100">Thesis</Link></li>
+              <li><Link to="/supervision" className="block px-4 py-2 hover:bg-gray-100">Supervisions</Link></li>
               <li><Link to="/rd-consultants" className="block px-4 py-2 hover:bg-gray-100">R&D Consultants</Link></li>
             </ul>
           </li>
@@ -189,7 +189,7 @@ const Navbar = () => {
                 <li><Link to="/fiit-projects" className="block px-4 py-2 hover:bg-gray-100" onClick={toggleSideMenu}>FIIT Projects</Link></li>
                 <li><Link to="/patents" className="block px-4 py-2 hover:bg-gray-100" onClick={toggleSideMenu}>Patents</Link></li>
                 <li><Link to="/books-supervised" className="block px-4 py-2 hover:bg-gray-100" onClick={toggleSideMenu}>Books Supervised</Link></li>
-                <li><Link to="/thesis" className="block px-4 py-2 hover:bg-gray-100" onClick={toggleSideMenu}>Thesis</Link></li>
+                <li><Link to="/supervision" className="block px-4 py-2 hover:bg-gray-100" onClick={toggleSideMenu}>Supervisions</Link></li>
                 <li><Link to="/rd-consultants" className="block px-4 py-2 hover:bg-gray-100" onClick={toggleSideMenu}>R&D Consultants</Link></li>
               </ul>
             </li>

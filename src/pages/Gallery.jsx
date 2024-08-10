@@ -12,7 +12,7 @@ import image5 from '../assets/sunil_jha.png';
 
 const Gallery = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center text-white p-4 relative overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center text-white p-4 relative overflow-hidden mt-10">
       <video className="absolute top-0 left-0 w-full h-full object-cover opacity-50" autoPlay loop muted>
         <source src={backgroundVideo} type="video/mp4" />
         Your browser does not support the video tag.

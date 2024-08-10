@@ -9,7 +9,7 @@ import FIITProjects from './pages/FIITProjects';
 import Patents from './pages/Patents';
 import BooksSupervised from './pages/BooksSupervised';
 import Awards from './pages/Awards';
-import Thesis from './pages/Thesis';
+import Supervision from './pages/Supervision'
 import RDConsultants from './pages/RDConsultants';
 import Teaching from './pages/Teaching';
 import IndustrialExperience from './pages/IndustrialExperience';
@@ -37,7 +37,7 @@ const locomotiveScroll = new LocomotiveScroll();
       <Route path="/patents" element={<Patents />} />
       <Route path="/books-supervised" element={<BooksSupervised />} />
       <Route path="/awards" element={<Awards />} />
-      <Route path="/thesis" element={<Thesis />} />
+      <Route path="/supervision" element={<Supervision />} />
       <Route path="/rd-consultants" element={<RDConsultants />} />
       <Route path="/teaching" element={<Teaching />} />
       <Route path="/industrial-experience" element={<IndustrialExperience />} />

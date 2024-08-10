@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Teaching = () => {
-  return (
-    <div className="container mx-auto px-4 py-8">
+  return ( 
+    <div className="container mx-auto px-4 py-8 mt-10">
       <h1 className="text-2xl font-bold mb-4">Teaching Experience</h1>
 
       <div className="mb-8">

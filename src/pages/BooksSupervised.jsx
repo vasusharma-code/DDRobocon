@@ -35,7 +35,7 @@ const BookChapters = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 mt-10">
       <h1 className="text-2xl font-bold mb-4">Book Chapters</h1>
       <ul className="list-disc list-inside">
         {chapters.map((chapter, index) => (
