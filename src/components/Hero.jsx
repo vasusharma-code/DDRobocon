@@ -13,11 +13,11 @@ const Hero = () => {
         {/* Text Section */}
         <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
           <h2 className="text-4xl font-bold text-gray-800">Prof. Sunil Jha</h2>
-          <p className="text-gray-600 mt-4 max-w-md">
+          <p className="text-gray-700 mt-4 max-w-md">
           I am Dr. Sunil Jha, a Professor in the Department of Mechanical Engineering at IIT Delhi. I hold a Ph.D. from IIT Kanpur. My research focuses on advanced machining and finishing processes, micro and nanofinishing, robotics, manufacturing automation, and smart fluids. I am particularly interested in the application of magnetorheological fluids and their impact on modern engineering challenges.
           </p>
           {showMore && (
-            <p className="text-gray-600 mt-4 max-w-md">
+            <p className="text-gray-700 mt-4 max-w-md">
               Dr. Sunil Jha is a Professor in Mechanical Engineering at IIT Delhi since August 2018, with previous roles as Associate Professor (2013-2018) and Assistant Professor (2007-2013). He also has industrial experience as a Senior Engineer at Tata Motors (1998-2000).
             </p>
           )}

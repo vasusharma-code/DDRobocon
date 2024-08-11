@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="relative w-full h-64 overflow-hidden">
+    <header className="relative w-full h-40 overflow-hidden">
       <a 
         href="https://www.iafsm.in/"  // Replace with your desired URL
         target="_blank"
