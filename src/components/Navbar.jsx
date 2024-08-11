@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from '../assets/IITD.png';
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Navbar = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [isVisible, setIsVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  const location = useLocation();
 
   const toggleDropdown = (dropdown) => {
     setOpenDropdown(openDropdown === dropdown ? null : dropdown);
-  };
-
-  const handleMouseEnter = (dropdown) => {
-    if (window.innerWidth > 768) {
-      setOpenDropdown(dropdown);
-    }
   };
 
   const handleScroll = () => {
@@ -29,6 +25,11 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [prevScrollPos]);
 
+  useEffect(() => {
+    // Close dropdowns when the route changes
+    setOpenDropdown(null);
+  }, [location]);
+
   return (
     <nav
       className={`bg-white shadow-md fixed w-full z-10 top-0 transition-all duration-300 ${
@@ -37,11 +38,12 @@ const Navbar = () => {
     >
       <style jsx>{`
         .nav {
-          display: inline-block;
+          display: inline-flex;
+          align-items: center;
           position: relative;
           text-decoration: none;
           color: inherit;
-          transition: all 0.4s;
+          transition: all 0.5s;
         }
         .nav::after {
           content: '';
@@ -53,7 +55,7 @@ const Navbar = () => {
           left: 0;
           background-color: black;
           transform-origin: bottom right;
-          transition: transform 0.4s ease-out;
+          transition: transform 0.5s ease-out;
         }
         .nav:hover::after {
           transform: scaleX(1);
@@ -117,15 +119,11 @@ const Navbar = () => {
               className="flex items-center nav"
             >
               Works
-              <i
-                className={`fas fa-chevron-down ml-2 ${
-                  openDropdown === "works" ? "transform rotate-180" : ""
-                }`}
-              ></i>
+              <RiArrowDropDownLine  className={`ml-2 transition-transform ${openDropdown === "works" ? "rotate-180" : ""}`} />
             </button>
             <ul
               className={`absolute left-0 mt-2 w-48 bg-white shadow-lg transition-all duration-300 ease-in-out overflow-hidden ${
-                openDropdown === "works" ? "max-h-96" : "max-h-0"
+                openDropdown === "works" ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
               }`}
             >
               <li><Link to="/international-journal" className="block px-4 py-2 hover:bg-gray-200">International Journal</Link></li>
@@ -146,15 +144,11 @@ const Navbar = () => {
               className="flex items-center nav"
             >
               Experience
-              <i
-                className={`fas fa-chevron-down ml-2 ${
-                  openDropdown === "experience" ? "transform rotate-180" : ""
-                }`}
-              ></i>
+              <RiArrowDropDownLine  className={`ml-2 transition-transform ${openDropdown === "experience" ? "rotate-180" : ""}`} />
             </button>
             <ul
               className={`absolute left-0 mt-2 w-48 bg-white shadow-lg transition-all duration-300 ease-in-out overflow-hidden ${
-                openDropdown === "experience" ? "max-h-96" : "max-h-0"
+                openDropdown === "experience" ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
               }`}
             >
               <li><Link to="/teaching" className="block px-4 py-2 hover:bg-gray-100">Teaching</Link></li>
@@ -183,13 +177,13 @@ const Navbar = () => {
             </svg>
           </a>
           <a href="https://www.youtube.com/@drsuniljha" target="_blank" rel="noopener noreferrer">
-                    <svg className="w-6 h-6 cursor-pointer transform hover:scale-125 transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="youtube">
-                        <g fillRule="evenodd" clipRule="evenodd">
-                            <path fill="#F44336" d="M15.32 4.06c-.434-.772-.905-.914-1.864-.968C12.498 3.027 10.089 3 8.002 3c-2.091 0-4.501.027-5.458.091-.957.055-1.429.196-1.867.969C.23 4.831 0 6.159 0 8.497v.008c0 2.328.23 3.666.677 4.429.438.772.909.912 1.866.977.958.056 3.368.089 5.459.089 2.087 0 4.496-.033 5.455-.088.959-.065 1.43-.205 1.864-.977.451-.763.679-2.101.679-4.429v-.008c0-2.339-.228-3.667-.68-4.438z"></path>
-                            <path fill="#FAFAFA" d="M6 11.5v-6l5 3z"></path>
-                        </g>
-                    </svg>
-                </a>
+            <svg className="w-6 h-6 cursor-pointer transform hover:scale-125 transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="youtube">
+              <g fillRule="evenodd" clipRule="evenodd">
+                <path fill="#F44336" d="M15.32 4.06c-.434-.772-.905-.914-1.864-.968C12.498 3.027 10.089 3 8.002 3c-2.091 0-4.501.027-5.458.091-.957.055-1.429.196-1.867.969C.23 4.831 0 6.159 0 8.497v.008c0 2.328.23 3.666.677 4.429.438.772.909.912 1.866.977.958.056 3.368.089 5.459.089 2.087 0 4.496-.033 5.455-.088.959-.065 1.43-.205 1.864-.977.451-.763.679-2.101.679-4.429v-.008c0-2.339-.228-3.667-.68-4.438z"></path>
+                <path fill="#FAFAFA" d="M6 11.5v-6l5 3z"></path>
+              </g>
+            </svg>
+          </a>
         </div>
       </div>
     </nav>

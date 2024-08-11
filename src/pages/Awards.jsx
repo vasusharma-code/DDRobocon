@@ -36,9 +36,9 @@ const AwardsAndRecognitions = () => {
             {awards.map((award, index) => (
               <tr key={index}>
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 bg-gray-100 border border-gray-600 text-center">{index + 1}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 bg-gray-50 border border-gray-600 text-center">{award.year}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 bg-gray-50 border border-gray-600 text-left">{award.agency}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 bg-gray-100 border border-gray-600 text-left">{award.award}</td>
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700 bg-gray-50 border border-gray-600 text-center">{award.year}</td>
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700 bg-gray-50 border border-gray-600 text-left">{award.agency}</td>
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700 bg-gray-100 border border-gray-600 text-left">{award.award}</td>
               </tr>
             ))}
           </tbody>
