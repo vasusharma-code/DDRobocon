@@ -400,12 +400,215 @@ const InternationalJournal = () => {
       pages: "560-570",
       doi: "https://doi.org/10.1007/s00170-007-1176-2"
     },
+    {
+      authors: "Dheeraj R, Markande A, Chandrashekhara K.L ,Sadagopan V ,Joshi ,Jha S",
+      title: "Augmented Reality Implementation for Fault Diagnosis on Robotic Welding Cell",
+      journal: "Lecture Notes in Mechanical Engineering",
+      volume: "N/A",
+      year: "2023",
+      pages: "91-101",
+      doi: "DOI:10.1007/978-981-19-0561-2_9  "
+    },
+    {
+      "authors": "V. Mishra, N. Dubey, M.P. Singh, R. Kumar, S. Kar, S. Jha, L.D. Mayer, D. Kim, G.S. Khan",
+      "title": "Computational-sampling-moiré-based on-machine alignment for freeform optics",
+      "journal": "Optics Letters",
+      "volume": "48",
+      "year": "2023",
+      "pages": "1934-1937",
+      "doi": "https://doi.org/10.1364/OL.485524"
+  },
+  {
+      "authors": "A. Kumar, P.M. Pandey, S. Jha, S.S. Banerjee",
+      "title": "Experimental investigations into additive manufacturing of styrene-ethylene-butylene-styrene block copolymers using solvent cast 3D printing technique",
+      "journal": "Rapid Prototyping Journal",
+      "year": "2023",
+      "doi": "https://doi.org/10.1108/RPJ-08-2022-0249"
+  },
+  {
+      "authors": "A. Kashyap, A. Karim, S. Arora, K. Singh, S. Jha, L. Maini",
+      "title": "Accuracy of Patient-Specific, 3D-Printed Laminofacetal Based Trajectory-Guide for Pedicle Screw Placement in Subaxial Cervical and Thoracic Spine",
+      "journal": "Neurology India",
+      "volume": "71",
+      "year": "2023",
+      "pages": "260-266",
+      "doi": "https://doi.org/10.4103/0028-3886.375394"
+  },
+  {
+      "authors": "S. Pabitwar, V. Sadagopan, P. Joshi, S. Jha",
+      "title": "Industrial Application of Augmented Reality: Maintenance of Multi-process Robotic Cell",
+      "journal": "Lecture Notes in Mechanical Engineering",
+      "year": "2023",
+      "pages": "81-90",
+      "doi": "https://doi.org/10.1007/978-981-19-0561-2_8"
+  },
+  {
+      "authors": "Z. Alam, D.A. Khan, F. Iqbal, S. Jha",
+      "title": "Theoretical and Experimental Study on Forces in Ball End Magnetorheological Finishing Process",
+      "journal": "Lecture Notes in Mechanical Engineering",
+      "year": "2023",
+      "pages": "391-401",
+      "doi": "https://doi.org/10.1007/978-981-19-3866-5_33"
+  },
+  {
+      "authors": "A.K. Sahu, J. Malhotra, S. Jha",
+      "title": "Comparative investigation of laser assisted hybrid microgrinding methods",
+      "journal": "Materials Letters",
+      "volume": "330",
+      "year": "2023",
+      "doi": "https://doi.org/10.1016/j.matlet.2022.133239"
+  },
+  {
+      "authors": "D. Atray, V. Sadagopan, S. Jha",
+      "title": "Data Acquisition and Data Visualization Framework for Smart Manufacturing",
+      "journal": "Lecture Notes in Mechanical Engineering",
+      "year": "2023",
+      "pages": "139-148",
+      "doi": "https://doi.org/10.1007/978-981-19-0561-2_13"
+  },
+  {
+      "authors": "H.A. Patel, P. Mukhopadhyay, S. Ghosh, S. Jha",
+      "title": "The effect of temperature and dwell time on diamond-WC brazed joint quality using low-melting point active Ag-Cu-In alloy",
+      "journal": "Diamond and Related Materials",
+      "volume": "139",
+      "year": "2023",
+      "doi": "https://doi.org/10.1016/j.diamond.2023.110308"
+  },
+  {
+      "authors": "V. Raja, D. Talwar, A. Manchikanti, S. Jha",
+      "title": "Autonomous Navigation for Mobile Robots with Sensor Fusion Technology",
+      "journal": "Lecture Notes in Mechanical Engineering",
+      "year": "2023",
+      "pages": "13-23",
+      "doi": "https://doi.org/10.1007/978-981-19-0561-2_2"
+  },
+  {
+      "authors": "F. Iqbal, Z. Alam, D.A. Khan, S. Jha",
+      "title": "Automated insular surface finishing by ball end magnetorheological finishing process",
+      "journal": "Materials and Manufacturing Processes",
+      "volume": "37",
+      "year": "2022",
+      "pages": "437-447",
+      "doi": "https://doi.org/10.1080/10426914.2021.2001502"
+  },
+  {
+      "authors": "T. Verma, O. Chawla, S. Jha",
+      "title": "Mathematical modelling for prediction of surface roughness in Pneumatically Configurable Polishing process",
+      "journal": "Wear",
+      "volume": "504-505",
+      "year": "2022",
+      "doi": "https://doi.org/10.1016/j.wear.2022.204434"
+  },
+  {
+      "authors": "A.K. Sahu, S. Jha",
+      "title": "Hybrid laser and micro milling methods for higher depth microchannel fabrication",
+      "journal": "Journal of Manufacturing Processes",
+      "volume": "81",
+      "year": "2022",
+      "pages": "672-679",
+      "doi": "https://doi.org/10.1016/j.jmapro.2022.07.018"
+  },
+  {
+      "authors": "A.K. Sahu, J. Malhotra, S. Jha",
+      "title": "Laser-based hybrid micromachining processes: A review",
+      "journal": "Optics and Laser Technology",
+      "volume": "146",
+      "year": "2022",
+      "doi": "https://doi.org/10.1016/j.optlastec.2021.107554"
+  },
+  {
+      "authors": "A.K. Sahu, J. Malhotra, S. Jha",
+      "title": "Effects of Various Scan Strategies on Laser Micromilling of SiAlON Ceramic",
+      "journal": "Lasers in Engineering",
+      "volume": "53",
+      "year": "2022",
+      "pages": "299-319"
+  },
+  {
+      "authors": "M.K. Gupta, D. Dinakar, I.M. Chhabra, S. Jha, B.S. Madireddy",
+      "title": "Experimental investigation and machine parameter optimization for nano finishing of fused silica using magnetorheological finishing process",
+      "journal": "Optik",
+      "volume": "226",
+      "year": "2021",
+      "doi": "https://doi.org/10.1016/j.ijleo.2020.165908"
+  },
+  {
+      "authors": "Z. Alam, F. Iqbal, S. Jha",
+      "title": "Modeling and analysis of forces and finishing spot size in the ball end magnetorheological finishing (BEMRF) process",
+      "journal": "Machining and Tribology: Processes, Surfaces, Coolants, and Modeling",
+      "year": "2021",
+      "pages": "127-161",
+      "doi": "https://doi.org/10.1016/B978-0-12-819889-6.00008-3"
+  },
+  {
+      "authors": "R. Poddar, A.K. Sahu, S. Jha",
+      "title": "Experimental investigation of nano second fiber laser micro grooving on cylindrical surface",
+      "journal": "Materials Today: Proceedings",
+      "volume": "44",
+      "year": "2021",
+      "pages": "2005-2012",
+      "doi": "https://doi.org/10.1016/j.matpr.2020.12.120"
+  },
+  {
+      "authors": "J. Malhotra, S. Jha",
+      "title": "Fuzzy c-means clustering based colour image segmentation for tool wear monitoring in micro-milling",
+      "journal": "Precision Engineering",
+      "volume": "72",
+      "year": "2021",
+      "pages": "690-705",
+      "doi": "https://doi.org/10.1016/j.precisioneng.2021.07.013"
+  },
+  {
+      "authors": "A.K. Sahu, S. Jha",
+      "title": "Microchannel fabrication and metallurgical characterization on titanium by nanosecond fiber laser micromilling",
+      "journal": "Materials and Manufacturing Processes",
+      "volume": "35",
+      "year": "2020",
+      "pages": "279-290",
+      "doi": "https://doi.org/10.1080/10426914.2020.1718702"
+  },
+  {
+      "authors": "V. Mishra, D. Sabharwal, M. Kumar, S. Jha, R. Kumar",
+      "title": "Experimental Study of Nano-Structured Diamond Coated Tool for Cutting and Surface Finish Enhancement in Micromachining",
+      "journal": "Procedia CIRP",
+      "volume": "91",
+      "year": "2020",
+      "pages": "243-248",
+      "doi": "https://doi.org/10.1016/j.procir.2020.03.153"
+  },
+  {
+      "authors": "S. Jha, V. Mishra",
+      "title": "Surface finish prediction in micro-milling using response surface methodology",
+      "journal": "International Journal of Advanced Manufacturing Technology",
+      "volume": "104",
+      "year": "2019",
+      "pages": "2003-2016",
+      "doi": "https://doi.org/10.1007/s00170-019-03893-x"
+  },
+  {
+      "authors": "A. Sahu, S. Jha",
+      "title": "Design and development of an abrasive jet machining system for precision micro-machining",
+      "journal": "Journal of Manufacturing Processes",
+      "volume": "40",
+      "year": "2019",
+      "pages": "262-276",
+      "doi": "https://doi.org/10.1016/j.jmapro.2019.03.002"
+  },
+  {
+      "authors": "S. Jha, V. Mishra",
+      "title": "Investigation of cutting force and surface finish in micro-milling of copper using uncoated carbide tools",
+      "journal": "Wear",
+      "volume": "416-417",
+      "year": "2018",
+      "pages": "132-144",
+      "doi": "https://doi.org/10.1016/j.wear.2018.07.012"
+  },
   ];
 
   return (
     <div className="container mx-auto px-4 py-8 mt-10">
       <h1 className="text-2xl font-bold mb-4">International Journal Papers</h1>
-      <ul className="list-disc list-inside">
+      <ol className="list-decimal list-inside">
         {papers.map((paper, index) => (
           <li key={index} className="mb-4">
             <p><strong>Authors:</strong> {paper.authors}</p>
@@ -414,7 +617,7 @@ const InternationalJournal = () => {
             <p><strong>DOI:</strong> <a href={paper.doi} className="text-blue-600" target="_blank" rel="noopener noreferrer">{paper.doi}</a></p>
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 };

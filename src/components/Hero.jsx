@@ -14,11 +14,11 @@ const Hero = () => {
         {/* Text Section */}
         <div className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
           <h2 className="text-4xl font-bold text-gray-800">Prof. Sunil Jha</h2>
-          <p className="text-gray-700 mt-4 max-w-md">
+          <p className="text-gray-800 mt-4 max-w-md">
           I am Dr. Sunil Jha, a Professor in the Department of Mechanical Engineering at IIT Delhi. I hold a Ph.D. from IIT Kanpur. My research focuses on advanced machining and finishing processes, micro and nanofinishing, robotics, manufacturing automation, and smart fluids. I am particularly interested in the application of magnetorheological fluids and their impact on modern engineering challenges.
           </p>
           {showMore && (
-            <p className="text-gray-700 mt-4 max-w-md">
+            <p className="text-gray-800 mt-4 max-w-md">
               Dr. Sunil Jha is a Professor in Mechanical Engineering at IIT Delhi since August 2018, with previous roles as Associate Professor (2013-2018) and Assistant Professor (2007-2013). He also has industrial experience as a Senior Engineer at Tata Motors (1998-2000).
             </p>
           )}
@@ -72,7 +72,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Why Choose Us Section */}
+      {/* Selected Publications */}
       <div className="container mx-auto px-4 py-12">
         <div className="text-center md:text-left mb-8">
           <h2 className="text-4xl font-bold text-gray-800">Selected Publications</h2>
@@ -82,27 +82,31 @@ const Hero = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           <div className="bg-blue-900 text-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold">Rheological characterization of MR polishing fluid used for silicon polishing in BEMRF process.</h3>
+            <h3 className="text-xl font-semibold">Augmented Reality Implementation for Fault Diagnosis on Robotic Welding Cell</h3>
             <p className="mt-2">
-            K Saraswathamma, S Jha, PV Rao, "Rheological characterization of MR polishing fluid used for silicon polishing in BEMRF process", Materials and Manufacturing Processes 30 (5), 661-668, 2015
+            Dheeraj R., Markande A., Chandrashekhara K.L., Sadagopan V., Joshi P., Jha S.
+"Conference Paper" published in Lecture Notes in Mechanical Engineering, 2023, pages 91-101. This paper explores advancements and findings in the field of mechanical engineering, presenting key insights and research outcomes from the conference.
             </p>
           </div>
           <div className="bg-blue-900 text-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold">Magneto-rheological nano-finishing of polycarbonate.</h3>
+            <h3 className="text-xl font-semibold">Computational-sampling-moiré-based on-machine alignment for freeform optics.</h3>
             <p className="mt-2">
-            DA Khan, J Kumar, S Jha, "Magneto-rheological nano-finishing of polycarbonate", International Journal of Precision Technology 6 (2), 89-2bg-blue-200, 2016
+            Mishra V., Dubey N., Singh M.P., Kumar R., Kar S., Jha S., Mayer L.D., Kim D., Khan G.S.
+            "Article" published in Optics Letters, Volume 48, 2023, pages 1934-1937. This article discusses recent developments in optical technologies, highlighting significant advancements and contributions made by the authors in the field of optics.
             </p>
           </div>
           <div className="bg-blue-900 text-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold">Mechanism of material removal in ball end magnetorheological finishing process.</h3>
+            <h3 className="text-xl font-semibold">Experimental investigations into additive manufacturing of styrene-ethylene-butylene-styrene block copolymers using solvent cast 3D printing technique.</h3>
             <p className="mt-2">
-            AK Singh, S Jha, PM Pandey, "Mechanism of material removal in ball end magnetorheological finishing process", Wear 302 (1), 1180-1191, 2013
+            Kumar A., Pandey P.M., Jha S., Banerjee S.S.
+"Article" published in Rapid Prototyping Journal, 2023. This article explores innovative approaches and methodologies in rapid prototyping, reflecting the authors' contributions to advancing the field and enhancing the efficiency of prototype development processes.
             </p>
           </div>
           <div className="bg-blue-900 text-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold">Ball end magnetorheological finishing using bidisperse magnetorheological polishing fluid.</h3>
+            <h3 className="text-xl font-semibold">Accuracy of Patient-Specific, 3D-Printed Laminofacetal Based Trajectory-Guide for Pedicle Screw Placement in Subaxial Cervical and Thoracic Spine.</h3>
             <p className="mt-2">
-            M Niranjan, S Jha, RK Kotnala, "Ball end magnetorheological finishing using bidisperse magnetorheological polishing fluid", Materials and Manufacturing Processes 29 (4), 487-49, 2014
+            Kashyap A., Karim A., Arora S., Singh K., Jha S., Maini L.
+            "Article" published in Neurology India, Volume 71, 2023, Pages 260-266. This article provides insights into recent advancements and research in neurology, offering valuable contributions to the understanding and management of neurological conditions.
             </p>
           </div>
         </div>

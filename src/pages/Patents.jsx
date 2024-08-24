@@ -55,16 +55,16 @@ const Patents = () => {
           <table className="min-w-full bg-white shadow-md divide-y divide-gray-300">
             <thead className="bg-gray-200">
               <tr>
-                <th className="w-1/3 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Type</th>
-                <th className="w-1/3 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Filed</th>
-                <th className="w-1/3 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Granted</th>
+                <th className="w-1/3 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Type</th>
+                <th className="w-1/3 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Filed</th>
+                <th className="w-1/3 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Granted</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="px-4 py-2 text-sm font-medium text-gray-900 border border-gray-300">Total</td>
-                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">5</td>
-                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">1</td>
+                <td className="px-4 py-2 text-sm text-centre font-medium text-gray-900 border border-gray-300">Total</td>
+                <td className="px-4 py-2 text-sm text-centre text-gray-700 border border-gray-300">5</td>
+                <td className="px-4 py-2 text-sm text-centre text-gray-700 border border-gray-300">1</td>
               </tr>
             </tbody>
           </table>
@@ -75,10 +75,10 @@ const Patents = () => {
         <table className="min-w-full bg-white shadow-md divide-y divide-gray-300 mb-8">
           <thead className="bg-gray-200">
             <tr>
-              <th className="w-1/4 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Title</th>
-              <th className="w-1/4 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Application No.</th>
-              <th className="w-1/4 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Applicant</th>
-              <th className="w-1/4 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Inventors</th>
+              <th className="w-1/4 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Title</th>
+              <th className="w-1/4 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Application No.</th>
+              <th className="w-1/4 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Applicant</th>
+              <th className="w-1/4 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Inventors</th>
             </tr>
           </thead>
           <tbody>
@@ -98,10 +98,10 @@ const Patents = () => {
         <table className="min-w-full bg-white shadow-md divide-y divide-gray-300">
           <thead className="bg-gray-200">
             <tr>
-              <th className="w-1/4 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Title</th>
-              <th className="w-1/4 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Application No.</th>
-              <th className="w-1/4 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Applicant</th>
-              <th className="w-1/4 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Inventors</th>
+              <th className="w-1/4 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Title</th>
+              <th className="w-1/4 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Application No.</th>
+              <th className="w-1/4 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Applicant</th>
+              <th className="w-1/4 px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Inventors</th>
             </tr>
           </thead>
           <tbody>

@@ -163,7 +163,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex gap-4 text-lg mt-2 md:mt-0">
-          <a href="https://mech.iitd.ac.in/content/jha-sunil" target="_blank" rel="noopener noreferrer">
+          <a href="https://iitd.irins.org/profile/70701" target="_blank" rel="noopener noreferrer">
             <svg className="w-6 h-6 cursor-pointer transform hover:scale-125 transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="google">
               <path fill="#fbbb00" d="M113.47 309.408L95.648 375.94l-65.139 1.378C11.042 341.211 0 299.9 0 256c0-42.451 10.324-82.483 28.624-117.732h.014L86.63 148.9l25.404 57.644c-5.317 15.501-8.215 32.141-8.215 49.456.002 18.792 3.406 36.797 9.651 53.408z"></path>
               <path fill="#518ef8" d="M507.527 208.176C510.467 223.662 512 239.621 512 256c0 19.069-1.889 37.703-5.475 55.764-12.074 55.588-44.652 103.009-88.611 133.893l-71.232-3.637-10.088-64.535c29.183-17.179 51.793-43.67 63.322-75.299H261.632V208.176h245.895z"></path>

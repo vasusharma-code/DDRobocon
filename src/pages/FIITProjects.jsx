@@ -90,32 +90,30 @@ const FITTConsultancyProjects = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="container mx-auto px-4 py-8 flex-grow">
-        <h1 className="text-2xl font-bold mb-6 text-center text-gray-800">FITT Consultancy Projects</h1>
-        <div className="overflow-x-auto">
-          <table className="min-w-full bg-white shadow-md table-auto">
-            <thead className="bg-gray-400">
-              <tr>
-                <th className="px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase border border-gray-600">Project No.</th>
-                <th className="px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase border border-gray-600">Title</th>
-                <th className="w-1/6 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase border border-gray-600">Start Date</th>
-                <th className="w-1/6 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase border border-gray-600">Amount</th>
-                <th className="w-1/6 px-4 py-2 text-left text-xs font-medium text-gray-700 uppercase border border-gray-600">Status</th>
+      <div className="container mx-auto px-4 py-8 mt-10 flex-grow">
+        <h1 className="text-2xl font-bold mb-4">FITT Consultancy Projects</h1>
+        <table className="min-w-full bg-white shadow-md divide-y divide-gray-300">
+          <thead className="bg-gray-200">
+            <tr>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Project No.</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Title</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Start Date</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Amount</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {projects.map((project, index) => (
+              <tr key={index}>
+                <td className="px-4 py-2 text-sm font-medium text-gray-900 border border-gray-300">{project.projectNo}</td>
+                <td className="px-4 text-left py-2 text-sm text-gray-700 border border-gray-300">{project.title}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{project.startDate}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{project.amount}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{project.status}</td>
               </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-400">
-              {projects.map((project, index) => (
-                <tr key={index}>
-                  <td className="px-4 py-2 text-left text-sm font-medium text-gray-900 border border-gray-600">{project.projectNo}</td>
-                  <td className="px-4 py-2 text-left text-sm text-gray-700 border border-gray-600">{project.title}</td>
-                  <td className="px-4 py-2 text-left text-sm text-gray-700 border border-gray-600">{project.startDate}</td>
-                  <td className="px-4 py-2 text-left text-sm text-gray-700 border border-gray-600">{project.amount}</td>
-                  <td className="px-4 py-2 text-left text-sm text-gray-700 border border-gray-600">{project.status}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );

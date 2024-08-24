@@ -176,22 +176,22 @@ const Supervision = () => {
       {/* Supervised Thesis Summary Table */}
       <div className="mb-8">
         <h1 className="text-2xl font-bold mb-4">Supervised Thesis Summary</h1>
-        <table className="min-w-full border border-gray-300 divide-y divide-gray-300">
-          <thead className="bg-gray-800 text-white">
+        <table className="min-w-full bg-white shadow-md divide-y divide-gray-300">
+          <thead className="bg-gray-200">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Level</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Individual Supervised</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Jointly Supervised</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Total</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Level</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Individual Supervised</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Jointly Supervised</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Total</th>
             </tr>
           </thead>
-          <tbody className="bg-gray-100">
+          <tbody>
             {thesisSummary.map((item, index) => (
-              <tr key={index} className="border-b border-gray-300">
-                <td className="px-6 py-4 text-sm text-gray-900">{item.level}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{item.individual}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{item.jointly}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{item.total}</td>
+              <tr key={index}>
+                <td className="px-4 py-2 text-center text-sm font-medium text-gray-900 border border-gray-300">{item.level}</td>
+                <td className="px-4 py-2 text-center text-sm text-gray-700 border border-gray-300">{item.individual}</td>
+                <td className="px-4 py-2 text-center text-sm text-gray-700 border border-gray-300">{item.jointly}</td>
+                <td className="px-4 py-2  text-center text-sm text-gray-700 border border-gray-300">{item.total}</td>
               </tr>
             ))}
           </tbody>
@@ -201,22 +201,22 @@ const Supervision = () => {
       {/* Ph.D. Supervision Table */}
       <div className="mb-8">
         <h1 className="text-2xl font-bold mb-4">Ph.D. Supervision</h1>
-        <table className="min-w-full border border-gray-300 divide-y divide-gray-300">
-          <thead className="bg-gray-800 text-white">
+        <table className="min-w-full bg-white shadow-md divide-y divide-gray-300">
+          <thead className="bg-gray-200">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">ID</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Name</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Title</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Status</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">ID</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Name</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Title</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Status</th>
             </tr>
           </thead>
-          <tbody className="bg-gray-100">
+          <tbody>
             {phdSupervision.map((phd, index) => (
-              <tr key={index} className="border-b border-gray-300">
-                <td className="px-6 py-4 text-sm text-gray-900">{phd.id}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{phd.name}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{phd.title}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{phd.status}</td>
+              <tr key={index}>
+                <td className="px-4 py-2 text-sm font-medium text-gray-900 border border-gray-300">{phd.id}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{phd.name}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{phd.title}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{phd.status}</td>
               </tr>
             ))}
           </tbody>
@@ -226,20 +226,20 @@ const Supervision = () => {
       {/* M.Tech. Supervision Table */}
       <div className="mb-8">
         <h1 className="text-2xl font-bold mb-4">M.Tech. Supervision</h1>
-        <table className="min-w-full border border-gray-300 divide-y divide-gray-300">
-          <thead className="bg-gray-800 text-white">
+        <table className="min-w-full bg-white shadow-md divide-y divide-gray-300">
+          <thead className="bg-gray-200">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">ID</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Title</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Student</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">ID</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Title</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Student</th>
             </tr>
           </thead>
-          <tbody className="bg-gray-100">
+          <tbody>
             {mtechSupervision.map((mtech, index) => (
-              <tr key={index} className="border-b border-gray-300">
-                <td className="px-6 py-4 text-sm text-gray-900">{mtech.id}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{mtech.title}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{mtech.student}</td>
+              <tr key={index}>
+                <td className="px-4 py-2 text-sm font-medium text-gray-900 border border-gray-300">{mtech.id}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{mtech.title}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{mtech.student}</td>
               </tr>
             ))}
           </tbody>
@@ -247,20 +247,20 @@ const Supervision = () => {
       </div>
 
       {/* B.Tech. Supervision Table */}
-      <div className="mb-8 ">
+      <div className="mb-8">
         <h1 className="text-2xl font-bold mb-4">B.Tech. Supervision</h1>
-        <table className="min-w-full border border-gray-300 divide-y divide-gray-300">
-          <thead className="bg-gray-800 text-white">
+        <table className="min-w-full bg-white shadow-md divide-y divide-gray-300">
+          <thead className="bg-gray-200">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">ID</th>
-              <th className="px-6 py-3 text-left text-xs font-medium uppercase border-b border-gray-400">Title</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">ID</th>
+              <th className="px-4 py-2 text-centre text-xs font-medium text-gray-700 uppercase tracking-wider border border-gray-300">Title</th>
             </tr>
           </thead>
-          <tbody className="bg-gray-100">
+          <tbody>
             {btechSupervision.map((btech, index) => (
-              <tr key={index} className="border-b border-gray-300">
-                <td className="px-6 py-4 text-sm text-gray-900">{btech.id}</td>
-                <td className="px-6 py-4 text-sm text-gray-700">{btech.title}</td>
+              <tr key={index}>
+                <td className="px-4 py-2 text-sm font-medium text-gray-900 border border-gray-300">{btech.id}</td>
+                <td className="px-4 py-2 text-sm text-gray-700 border border-gray-300">{btech.title}</td>
               </tr>
             ))}
           </tbody>
