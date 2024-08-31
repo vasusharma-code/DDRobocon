@@ -11,7 +11,7 @@ const IndustrialExperience = () => {
       <div>
         <h1 className="text-2xl font-bold mb-4">Industrial Experience</h1>
 
-        <div className="mb-8">
+        <div className="overflow-x-auto">
           <table className="min-w-full bg-white shadow-md divide-y divide-gray-300">
             <thead className="bg-gray-200">
               <tr>
