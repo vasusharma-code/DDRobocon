@@ -77,17 +77,17 @@ const Navbar = () => {
               <RiArrowDropDownLine className={`ml-2 transition-transform ${openDropdown === "works" ? "rotate-180" : ""}`} />
             </button>
             <ul
-              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg transition-all duration-300 ease-in-out overflow-hidden ${
-                openDropdown === "works" ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-              }`}
+              className={`${
+                openDropdown === "works" ? "block" : "hidden"
+              } md:absolute md:left-0 md:mt-2 md:w-48 bg-white shadow-lg transition-all duration-300 ease-in-out overflow-hidden md:overflow-visible p-2 rounded-md space-y-1`}
             >
-              <li><Link to="/international-journal" className="block px-4 py-2 hover:bg-gray-200" onClick={closeMobileMenu}>International Journal</Link></li>
-              <li><Link to="/conference-paper" className="block px-4 py-2 hover:bg-gray-200" onClick={closeMobileMenu}>Conference Paper</Link></li>
-              <li><Link to="/fiit-projects" className="block px-4 py-2 hover:bg-gray-200" onClick={closeMobileMenu}>FITT Projects</Link></li>
-              <li><Link to="/patents" className="block px-4 py-2 hover:bg-gray-200" onClick={closeMobileMenu}>Patents</Link></li>
-              <li><Link to="/books-supervised" className="block px-4 py-2 hover:bg-gray-200" onClick={closeMobileMenu}>Books Supervised</Link></li>
-              <li><Link to="/supervision" className="block px-4 py-2 hover:bg-gray-200" onClick={closeMobileMenu}>Supervisions</Link></li>
-              <li><Link to="/rd-consultants" className="block px-4 py-2 hover:bg-gray-200" onClick={closeMobileMenu}>R&D Consultants</Link></li>
+              <li><Link to="/international-journal" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>International Journal</Link></li>
+              <li><Link to="/conference-paper" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Conference Paper</Link></li>
+              <li><Link to="/fiit-projects" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>FITT Projects</Link></li>
+              <li><Link to="/patents" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Patents</Link></li>
+              <li><Link to="/books-supervised" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Books Supervised</Link></li>
+              <li><Link to="/supervision" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Supervisions</Link></li>
+              <li><Link to="/rd-consultants" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>R&D Consultants</Link></li>
             </ul>
           </li>
           <li>
@@ -102,12 +102,12 @@ const Navbar = () => {
               <RiArrowDropDownLine className={`ml-2 transition-transform ${openDropdown === "experience" ? "rotate-180" : ""}`} />
             </button>
             <ul
-              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg transition-all duration-300 ease-in-out overflow-hidden ${
-                openDropdown === "experience" ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-              }`}
+              className={`${
+                openDropdown === "experience" ? "block" : "hidden"
+              } md:absolute md:left-0 md:mt-2 md:w-48 bg-white shadow-lg transition-all duration-300 ease-in-out overflow-hidden md:overflow-visible p-2 rounded-md space-y-1`}
             >
-              <li><Link to="/teaching" className="block px-4 py-2 hover:bg-gray-100" onClick={closeMobileMenu}>Teaching</Link></li>
-              <li><Link to="/industrial-experience" className="block px-4 py-2 hover:bg-gray-100" onClick={closeMobileMenu}>Industrial Experience</Link></li>
+              <li><Link to="/teaching" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Teaching</Link></li>
+              <li><Link to="/industrial-experience" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Industrial Experience</Link></li>
             </ul>
           </li>
           <li>
