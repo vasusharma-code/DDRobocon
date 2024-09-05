@@ -18,11 +18,21 @@
   object-fit: cover;
   opacity: 0.5;
   z-index: -1;
+  min-height: 100vh; /* Ensure the video covers the entire height */
 }
 
-.z-16 {
-  z-index: 16;
+@media (max-width: 768px) {
+  .video-background {
+    object-fit: fill; /* Ensure the video adjusts to fill the smaller screen */
+  }
 }
+
+@media (max-width: 480px) {
+  .video-background {
+    object-fit: cover; /* Keep cover for very small screens */
+  }
+}
+
 
 .gallery-container {
   margin-top: 150px; /* Adjust this value to move the images down */
@@ -49,5 +59,22 @@
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+/* Ensure the video is responsive on smaller devices */
+@media (max-width: 768px) {
+  .min-h-screen {
+    padding: 2rem 0; /* Adjust padding for smaller screens */
+  }
+
+  .gallery-image {
+    width: 150px; /* Adjust the image width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-image {
+    width: 120px; /* Further adjust the image width for very small screens */
   }
 }

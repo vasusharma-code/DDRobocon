@@ -3,11 +3,11 @@ import './Gallery.css';
 import backgroundVideo from '../assets/background.mp4'; // Make sure the path is correct
 
 
-import image1 from '../assets/sunil_jha.png';
-import image2 from '../assets/sunil_jha.png';
-import image3 from '../assets/sunil_jha.png';
-import image4 from '../assets/sunil_jha.png';
-import image5 from '../assets/sunil_jha.png';
+import image1 from '../assets/image1.jpg';
+import image2 from '../assets/image2.jpg';
+import image3 from '../assets/image3.jpg';
+import image4 from '../assets/image4.jpg';
+import image5 from '../assets/image5.jpg';
 
 
 const Gallery = () => {
