@@ -8,7 +8,7 @@ const Footer = () => {
           <p>Copyright © 2024-25, DD Robocon</p>
         </div>
         <div className="text-center md:text-right">
-          <p> <a href="mailto:vasu.sharma1768934@gmail.com" className="underline"></a></p>
+          <p>Website created and designed by <a href="mailto:vasu.sharma1768934@gmail.com" className="underline">Vasu Sharma</a></p>
         </div>
       </div>
     </footer>
