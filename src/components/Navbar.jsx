@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/IITD.png';
-import { RiArrowDropDownLine, RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import DDRLogo from '../assets/DDLogo.png';
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -48,8 +49,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-2 flex items-center justify-between flex-wrap">
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="h-12 mr-2" />
-          <h1 className="text-xl font-bold">Prof. Sunil Jha</h1>
+          <img src={logo} alt="Logo" className="h-16 mr-1" /> {/* Increased size */}
+          <h1 className="text-xl font-bold flex items-center">
+            DD Robocon 2025
+            <img src={DDRLogo} alt="DDRLogo" className="h-12 ml-3" /> {/* DDRLogo on the right */}
+          </h1>
         </div>
         <div className="flex items-center md:hidden">
           <button onClick={toggleMobileMenu}>
@@ -68,53 +72,17 @@ const Navbar = () => {
           <li>
             <Link to="/" className="nav" onClick={closeMobileMenu}>Home</Link>
           </li>
-          <li className="relative">
-            <button
-              onClick={() => toggleDropdown("works")}
-              className="flex items-center nav"
-            >
-              Works
-              <RiArrowDropDownLine className={`ml-2 transition-transform ${openDropdown === "works" ? "rotate-180" : ""}`} />
-            </button>
-            <ul
-              className={`${
-                openDropdown === "works" ? "block" : "hidden"
-              } md:absolute md:left-0 md:mt-2 md:w-48 bg-white shadow-lg transition-all duration-300 ease-in-out overflow-hidden md:overflow-visible p-2 rounded-md space-y-1`}
-            >
-              <li><Link to="/international-journal" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>International Journal</Link></li>
-              <li><Link to="/conference-paper" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Conference Paper</Link></li>
-              <li><Link to="/fiit-projects" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>FITT Projects</Link></li>
-              <li><Link to="/patents" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Patents</Link></li>
-              <li><Link to="/books-supervised" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Books Supervised</Link></li>
-              <li><Link to="/supervision" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Supervisions</Link></li>
-              <li><Link to="/rd-consultants" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>R&D Consultants</Link></li>
-            </ul>
+          <li>
+            <Link to="/important-dates" className="nav" onClick={closeMobileMenu}>Important Dates</Link>
           </li>
           <li>
-            <Link to="/awards" className="nav" onClick={closeMobileMenu}>Awards</Link>
-          </li>
-          <li className="relative">
-            <button
-              onClick={() => toggleDropdown("experience")}
-              className="flex items-center nav"
-            >
-              Experience
-              <RiArrowDropDownLine className={`ml-2 transition-transform ${openDropdown === "experience" ? "rotate-180" : ""}`} />
-            </button>
-            <ul
-              className={`${
-                openDropdown === "experience" ? "block" : "hidden"
-              } md:absolute md:left-0 md:mt-2 md:w-48 bg-white shadow-lg transition-all duration-300 ease-in-out overflow-hidden md:overflow-visible p-2 rounded-md space-y-1`}
-            >
-              <li><Link to="/teaching" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Teaching</Link></li>
-              <li><Link to="/industrial-experience" className="block px-3 py-1 hover:bg-gray-200" onClick={closeMobileMenu}>Industrial Experience</Link></li>
-            </ul>
+            <Link to="/contest-rules" className="nav" onClick={closeMobileMenu}>Contest Rules</Link>
           </li>
           <li>
-            <Link to="/other-activities" className="nav" onClick={closeMobileMenu}>Other Activities</Link>
+            <Link to="/game-videos" className="nav" onClick={closeMobileMenu}>Game Videos</Link>
           </li>
           <li>
-            <Link to="/gallery" className="nav" onClick={closeMobileMenu}>Gallery</Link>
+            <Link to="/contact" className="nav" onClick={closeMobileMenu}>Contact</Link>
           </li>
         </ul>
       </div>
