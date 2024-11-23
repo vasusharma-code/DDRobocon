@@ -1,7 +1,6 @@
 import "./App.css";
 import Homepage from "./pages/Homepage";
 import { Route,Routes } from "react-router-dom";
-import LocomotiveScroll from 'locomotive-scroll';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Important from "./pages/Important";
@@ -13,9 +12,6 @@ import ContactUsPage from "./pages/ContactUsPage";
 
 
 function App() {
-
-  
-const locomotiveScroll = new LocomotiveScroll();
 
   return (
    <div>
