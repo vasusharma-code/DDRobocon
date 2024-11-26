@@ -13,6 +13,22 @@ import "swiper/css/pagination";
 const Hero = () => {
   return (
     <section className="bg-white">
+      {/* Mongolia Highlight Section */}
+      <div className="bg-gradient-to-r from-blue-500 to-green-400 text-white py-12">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Win a Chance to Represent India in Mongolia!
+          </h2>
+          <p className="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
+            Showcase your engineering prowess on the global stage! The winner of
+            DD Robocon India 2025 will proudly represent the nation in the
+            Asia-Pacific Robocon competition, hosted in Mongolia. Step up to the
+            challenge, and let your innovation shine on an international
+            platform!
+          </p>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-10">
         <div className="flex flex-col md:flex-row items-center md:space-x-8">
@@ -131,22 +147,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Mongolia Highlight Section */}
-      <div className="bg-gradient-to-r from-blue-500 to-green-400 text-white py-10">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Win a Chance to Represent India in Mongolia!
-          </h2>
-          <p className="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-            Showcase your engineering prowess on the global stage! The winner of
-            DD Robocon India 2025 will proudly represent the nation in the
-            Asia-Pacific Robocon competition, hosted in Mongolia. Step up to the
-            challenge, and let your innovation shine on an international
-            platform!
-          </p>
         </div>
       </div>
     </section>
