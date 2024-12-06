@@ -72,11 +72,11 @@ const ImportantDates = () => {
 
         <div className="flex items-center space-x-4">
           <div className="w-12 h-12 flex items-center justify-center rounded-full bg-green-400 text-white text-xl font-bold">
-            13
+            12
           </div>
           <div>
             <h2 className="text-lg font-semibold text-gray-800">
-              13-14 July-2025
+              12-13 July-2025
             </h2>
             <p className="text-gray-600 text-sm">
               National DD Robocon 2025
