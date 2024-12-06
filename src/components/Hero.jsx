@@ -126,7 +126,7 @@ const Hero = () => {
                     description: "Stage – 2 Shortlisting",
                   },
                   {
-                    date: "13-14 July-2025",
+                    date: "12-13 July-2025",
                     description: "National DD Robocon 2025",
                   },
                 ].map((event, index) => (
